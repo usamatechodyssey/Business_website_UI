@@ -12,7 +12,16 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      screens: {
+        xm: "320px",
+      },
+      fontFamily: {
+        sans: ["var(--font-inter)", "ui-sans-serif", "system-ui"],
+      },
+      boxShadow: {
+        custom: '0 4px 50px 0 rgba(0, 0, 0, 0.08)',
+      },
     },
   },
-  plugins: [],
+  plugins: [require("tailwind-scrollbar-hide")], // Ensure this line is in place
 } satisfies Config;
