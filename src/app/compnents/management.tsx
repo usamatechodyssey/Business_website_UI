@@ -259,10 +259,10 @@ export default function Management() {
               </div>
 
               <p className="text-[#01252A] font-sans text-[18px] font-normal leading-[30px] tracking-[-0.02em]">
-                "If you haven&apos;t tried EventSprout yet, you need to give it
-                a shot for your next event. It&apos;s so easy and intuitive to
-                get a new event setup, and if you need any help their customer
-                service is seriously amazing."
+                If you haven&apos;t tried EventSprout yet, you need to give it a
+                shot for your next event. It&apos;s so easy and intuitive to get
+                a new event setup, and if you need any help their customer
+                service is seriously amazing.
               </p>
             </div>
 
