@@ -65,7 +65,7 @@ export default function PricingPage() {
   return (
     <div
       id="pricing"
-      className="min-h-screen flex flex-col items-center justify-center"
+      className="min-h-screen flex flex-col items-center justify-center mb-12"
     >
       <div className=" gap-2 items-center flex flex-col justify-center text-center mb-10">
         <h3 className="text-[#212529] w-[288px]   font-sans text-[36px] font-bold leading-[43.57px] tracking-[-0.02em] text-center  md:w-[728px]  md:text-[54px] md:leading-[65.35px] lg:w-[979px] ">
@@ -80,13 +80,13 @@ export default function PricingPage() {
         {/* Navigation Arrows */}
         <button
           onClick={scrollLeft}
-          className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-white p-2 rounded-full shadow-md hover:bg-gray-100 hidden md:block"
+          className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-white p-2 rounded-full shadow-md hover:bg-gray-100 hidden "
         >
           ◀
         </button>
         <button
           onClick={scrollRight}
-          className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white p-2 rounded-full shadow-md hover:bg-gray-100 hidden md:block"
+          className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white p-2 rounded-full shadow-md hover:bg-gray-100 hidden  "
         >
           ▶
         </button>

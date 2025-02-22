@@ -67,7 +67,6 @@ export default function Management() {
         </div>
       </div>
 
-      {/* component of pricing */}
       <div id="product" className="flex flex-col justify-center items-center">
         <div className="flex flex-col  w-full max-w-screen-xl  items-center justify-center pt-[80px] pb-[80px] pl-[16px] pr-[16px]  lg:flex-row gap-10 lg:gap-10 xl:gap-20">
           <div className=" flex flex-col gap-10 justify-center text-center   lg:text-left">
@@ -83,7 +82,7 @@ export default function Management() {
             </div>
             <div>
               <button className="w-[232px]  h-[70px] rounded-[8px] bg-[#4F9CF9] text-white font-semibold font-sans lg:w-[219px]  lg:h-[63px] ">
-                Let’s Go
+                Let&apos;s Go
               </button>
             </div>
           </div>
@@ -91,6 +90,7 @@ export default function Management() {
           <div className=" w-full max-w-[286px] md:max-w-[551px] lg:max-w-[526px] h-[191px] bg-[#C4DEFD]  md:h-[367px] lg:h-[350.45px] xl:w-bb[685px] xl:h-[456.39px]"></div>
         </div>
       </div>
+
       <div>
         <Detailproduct />
       </div>
@@ -124,9 +124,9 @@ export default function Management() {
               </h3>
               <p className="text-[#212529] w-[288px] font-sans text-[18px] font-normal leading-[30px] tracking-[-0.02em] text-center md:w-[728px] lg:w-[526px] lg:text-left xl:w-[630px]">
                 The app is open source and your notes are saved to an open
-                format, so you'll always have access to them. Uses End-To-End
-                Encryption (E2EE) to secure your notes and ensure no-one but
-                yourself can access them.
+                format, so you&apos;ll always have access to them. Uses
+                End-To-End Encryption (E2EE) to secure your notes and ensure
+                no-one but yourself can access them.
               </p>
             </div>
             <div>
@@ -259,10 +259,10 @@ export default function Management() {
               </div>
 
               <p className="text-[#01252A] font-sans text-[18px] font-normal leading-[30px] tracking-[-0.02em]">
-                “If you haven’t tried EventSprout yet, you need to give it a
-                shot for your next event. It’s so easy and intuitive to get a
-                new event setup, and if you need any help their customer service
-                is seriously amazing.”
+                "If you haven&apos;t tried EventSprout yet, you need to give it
+                a shot for your next event. It&apos;s so easy and intuitive to
+                get a new event setup, and if you need any help their customer
+                service is seriously amazing."
               </p>
             </div>
 
